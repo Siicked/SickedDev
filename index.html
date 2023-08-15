@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/perfil.png" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>SiickedDev</title>
+</head>
+<body>
+    <span class="sombra">
+        <section id="inicio" class="inicio"> 
+            <div class="contenido">
+                <header>
+                    <div class="logo">
+                        <i class="fa-solid fa-network-wired"></i>
+                        <h1>SiickedDev</h1>
+                    </div>
+                    <nav id="nav" class="">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#servicios">Servicios</a>
+                        <a href="#habilidades">Habilidades</a>
+                        <a href="#trabajos">Trabajos</a>
+                        <a href="#contacto">Contacto</a>
+                    </nav>
+    
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+    
+                    <div class="redes">
+                        <a target="_blank" href="https://twitter.com/SiickedLOL"><i class="fa-brands fa-twitter"></i></a>
+                        <a target="_blank" href="https://www.instagram.com/juan.berga02/"><i class="fa-brands fa-instagram"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/juan-cruz-berga-ba775625b/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </header>
+    
+                <div class="fila">
+                    <div class="col">
+                        <h2>Web Developer</h2>
+                        <p class="headline">Hola ! Mí nombre es Juan Cruz y soy desarrollador Front-End con conocimientos en el Back. Me caracterizo por ser muy competitivo y disciplinado. A continuación verás mis habilidades y trabajos. Que lo disfrutes !</p>
+                        <a download="CV" href="./img/cvcv.png"><button class="btn btn-1 ">Descargar CV</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="contenedor-img">
+                            <img src="img/foto-inicio.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </span>
+
+    <section id="servicios" class="servicios">
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                    </div>
+                    <h3>Diseño Front-End</h3>
+                    <p>Uso de tecnologías como HTML5, CSS, JavaScript y React haciendo uso de frameworks y librerias como TailwindCSS, Vite, Formik, React Router y más</p>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-solid fa-server"></i>
+                        </div>
+                    </div>
+                    <h3>Manejo del Backend</h3>
+                    <p>Conocimientos básicos sobre Node.js, Express y MongoDB.</p>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-solid fa-user-check"></i></i>
+                        </div>
+                    </div>
+                    <h3>Más sobre mí</h3>
+                    <p>Tengo 21 años.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="habilidades" id="habilidades">
+        <div class="contenedor-habi">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="80">
+                                80%
+                            </div>
+                            <h2>HTML5 + CSS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="70">
+                                70%
+                            </div>
+                            <h2>TailwindCSS/ Bootstrap</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="60">
+                                70%
+                            </div>
+                            <h2>JavaScript</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="60">
+                                70%
+                            </div>
+                            <h2>React</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="40">
+                                40%
+                            </div>
+                            <h2>Node.Js</h2>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="40">
+                                40%
+                            </div>
+                            <h2>Express</h2>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                
+                
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- sección trabajos -->
+    <section class="trabajos" id="trabajos">
+        <h2>Mis proyectos</h2>
+
+        <nav>
+            <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
+            <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('Front-End')">Proyectos/Practicas</a>
+            <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('Back-End')">Trabajos Reales</a>
+        </nav>
+
+        <div class="galeria">
+            <div class="item Back-End">
+                <img src="./img/asdadsa.png" alt="">
+                <div class="info">
+                    <h3>Trabajo para FB Ingenieria</h3>
+                    <span>JavaScript</span><span>React</span><span>Tailwind</span>
+                    <span>Router Dom v6</span><span>Responsive</span>
+                    <a target="_blank" href="https://fabricioelectricidad.vercel.app/">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item Front-End">
+                <img src="./img/Pagina 123.png" alt="">
+                <div class="info">
+                    <h3>Diseño Tienda (Only design)</h3>
+                    <span>HTML</span><span>TailwindCSS</span><span>React + Vite</span>
+                    <a target="_blank" href="https://design-tienda.vercel.app/">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item Front-End">
+                <img src="./img/asdasddsa.png" alt="">
+                <div class="info">
+                    <h3>Sitio Web Responsive</h3>
+                    <span>CSS</span><span>React</span><span>React Router DOM</span>
+                    <a target="_blank" href="https://dev-protect.vercel.app/">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item Front-End">
+                <img src="./img/Blog.png" alt="">
+                <div class="info">
+                    <h3>Blog con Filter</h3>
+                    <span>HTML</span><span>CSS</span><span>React + Vite</span>
+                    <a target="_blank" href="https://blog-siicked.vercel.app/">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item Front-End">
+                <img src="./img/Screenshot_6.png" alt="">
+                <div class="info">
+                    <h3>Consumiendo Api Weather</h3>
+                    <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    <a target="_blank" href="https://clima-bay.vercel.app/">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item Front-End">
+                <img src="./img/spotifi.png" alt="">
+                <div class="info">
+                    <h3>Clon Spotify</h3>
+                    <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    <a target="_blank" href="https://proyecto-spotify.vercel.app/">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item Front-End">
+                <img src="./img/Screenshot_5.png" alt="">
+                <div class="info">
+                    <h3>Carrito E-Commerce</h3>
+                    <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    <a target="_blank" href="https://carrito-basico-phi.vercel.app/">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item Front-End">
+                <img src="./img/Screenshot_7.png" alt="">
+                <div class="info">
+                    <h3>Reproductor Video
+                        (Abrir en chrome)</h3>
+                    <span>HTML</span><span>TailwindCSS</span><span>React + vite</span>
+                    <a target="_blank" href="https://video-play-zeta.vercel.app/">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item Front-End">
+                <img src="./img/Screenshot_1.png" alt="">
+                <div class="info">
+                    <h3>Login/Register React Dom</h3>
+                    <span>React</span><span>React Router Dom</span>
+                    <a target="_blank" href="https://reactdom.vercel.app/">Ver Trabajo</a>
+                </div>
+            </div>
+    </section>
+
+    <section class="contacto" id="contacto">
+        <div class="contenedor-contacto">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="info">
+                        <h3>Email:</h3>
+                        <p>juanberga2002@hotmail.com</p>
+                    </div>
+                    <div class="info">
+                        <h3>Teléfono:</h3>
+                        <p>+3498521587</p>
+                    </div>
+                    <div class="info">
+                        <h3>País</h3>
+                        <p>Argentina</p>
+                    </div>
+                    <div class="info">
+                        <h3>Ciudad:</h3>
+                        <p>Rio Gallegos, Santa Cruz.</p>
+                    </div>
+                </div>
+                <form class="col" action="https://formsubmit.co/juanberga2002@hotmail.com" method="POST">
+                    <input type="text" name="name" placeholder="Nombre... " required>
+                    <input type="email" name="email" placeholder="Correo..." required>
+                    <input type="text" name="asunto" placeholder="Asunto..." required>
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                    <input type="submit" value="Enviar" class="btn">
+                    <form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
